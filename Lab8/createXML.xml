@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DS_SinhVien>
+    <SinhVien>
+        <MSSV>1710158</MSSV>
+        <TenSV>Phan Thị Quỳnh Duyên</TenSV>
+        <GioiTinh>Nữ</GioiTinh>
+        <Lop>CTK41</Lop>
+        <Diem>
+            <Toan HeSo="1">5</Toan>
+            <VatLy HeSo="1">5</VatLy>
+        </Diem>
+    </SinhVien>
+</DS_SinhVien>

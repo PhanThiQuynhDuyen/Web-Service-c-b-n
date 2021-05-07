@@ -1,0 +1,66 @@
+.main{
+    width: 90%;
+    margin: 0 auto;
+}
+.post{
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    padding-bottom: 1em;
+}
+.post-connten img{
+    width: 20%;
+    float: left;
+    margin-right: 2%;
+}
+.post-head{
+    float: right;
+    width: 78%;
+    margin-top: -8px;
+}
+.post-head a{
+    color: darkred;
+    text-decoration: none;
+    font-family: "Merriweather",serif;
+}
+.post-head a:hover{
+    color: darkmagenta;
+}
+.post-head span{
+    color: grey;
+}
+.post-connten{
+    text-indent: 2em;
+    width: 100%;
+}
+h1{
+    color: darkmagenta;
+}
+hr{
+    border-color: rgba(0, 128, 128, 0.336);
+}
+input[type=text]{
+    width: 30%;
+    padding: 4px 3px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #58257b;
+    border-radius: 4px;
+}
+input[type=submit]{
+    width: 8%;
+    padding: 4px 6px;
+    margin: 8px 3px;
+    box-sizing: border-box;
+    border: 1px solid #58257b;
+    border-radius: 6px;
+    background-color: rgb(226, 34, 34);
+    color: aliceblue;
+    font-weight: bold;
+}
+input[type=submit]:hover{
+    background-color: green;
+    color: aliceblue;
+    font-weight: bold;
+}
+

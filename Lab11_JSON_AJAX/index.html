@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" id="btn" value="Lấy thông tin sinh viên từ server">
+    <div id="danh-sach-sv"></div>
+    <script>
+        //hiển thị thông tin
+        var sinhVienContainer = document.getElementById('danh-sach-sv');
+        //kích hoạt sự kiện click để bắt đầu phiên làm việc
+        var btn = document.getElementById('btn');
+        btn.addEventListener('click', function() {
+            //tạo đối tượng XMLHttpRequest
+            var myRequest = new XMLHttpRequest();
+            //phương thức open(): cấu hình các thông tin cho request (phương thức lấy thông tin từ server và URL của server)
+            myRequest.open('GET', 'https://phanthiquynhduyen.github.io/sinhvien.json');
+            //onload: thực hiện các xử lý khi gửi request lên server thành công
+            //dữ liệu server trả về được đặt trong myRequest.responseText
+            myRequest.onload = function() {
+
+                if (myRequest.status >= 200 && myRequest.status < 400) {
+                    //JSON.parse() của JavaScript giúp chuyển dữ liệu JSON(text) về dạng đối tượng của JavaScript
+                    var myData = JSON.parse(myRequest.responseText);
+                    renderHTML(myData); 
+                } else {
+                    console.log("Da ket noi toi server, nhung server gui ve mot thong bao loi");
+                }
+            };
+            // ham xu ly khi AJAX bi loi
+            myRequest.onerror = function() {
+                console.log("Loi ket noi");
+            }
+            //gửi request lên server
+            myRequest.send();
+
+        }); 
+        //Hiển thị dữ liệu
+        function renderHTML(data) {
+            var htmlString = "";
+            for (var i = 0; i < data.length; i++) {
+                htmlString += "<p>Tên: " + data[i].ten +  "<br>Tuổi: " + data[i].tuoi + "<br>"  + "Điểm: " + "<br>" + " - Điểm toán: " + data[i].Toan 
+                + "<br>"+  " - Điểm Tiếng anh: " + data[i].tiengAnh + "<br>"+  " - Điểm Lập trình: " + data[i].lapTrinh +"</p>";
+            }
+            sinhVienContainer.insertAdjacentHTML('beforeend', htmlString);
+        }
+    </script>
+</body>
+</html>

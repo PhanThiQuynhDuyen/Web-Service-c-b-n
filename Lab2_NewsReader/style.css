@@ -1,0 +1,55 @@
+body{
+   background-image: url('images/hinh-anh-hoa-huong-duong-duoi-anh-hoang-hon_042952506.jpg');
+}
+.main{
+    width: 90%;
+    margin: 0px auto;
+}
+.post{
+    width: 47%;
+    margin: 0px auto;
+    float: left;
+    background-color: #fff8dcbd;
+    border-radius: 8px ;
+    padding-bottom: 2%;
+}
+.post h2{
+    text-align: center;
+    font-family: "Merriweather",serif;
+    padding: 5px;
+}
+.post hr{
+    margin-top: -10px;
+}
+.ps-head{
+    width: 96%;
+    margin: 0px auto;
+}
+.ps-head a{
+    text-decoration: none;
+    font-family: "Merriweather",serif;
+    color: black;
+}
+.ps-head a:hover{
+    color: red;
+}
+.ps-head h3{
+    margin-bottom: 2px;
+    margin-left: 25px;
+}
+.ps-head span{
+    float: left;
+    text-align: left;
+    font-size: small;
+}
+.ps-head span img{
+    float:left;
+    width: 20px;
+}
+.ps-content{
+    width: 96%;
+    margin: 0px auto;
+}
+.ps-content h4{
+    font-weight: 100;
+}

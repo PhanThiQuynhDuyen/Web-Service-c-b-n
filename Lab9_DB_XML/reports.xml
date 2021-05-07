@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DS_SinhVien>
+  <SinhVien>
+    <MSSV>1710001</MSSV>
+    <HoTen>Nguyễn Văn A</HoTen>
+    <NamSinh>1999-02-28</NamSinh>
+    <Diem>
+      <DiemMon1>8</DiemMon1>
+      <DiemMon2>5</DiemMon2>
+      <DiemMon3>7</DiemMon3>
+    </Diem>
+  </SinhVien>
+  <SinhVien>
+    <MSSV>1710126</MSSV>
+    <HoTen>Nông Phan An</HoTen>
+    <NamSinh>1999-09-06</NamSinh>
+    <Diem>
+      <DiemMon1>7</DiemMon1>
+      <DiemMon2>7</DiemMon2>
+      <DiemMon3>7</DiemMon3>
+    </Diem>
+  </SinhVien>
+  <SinhVien>
+    <MSSV>1710158</MSSV>
+    <HoTen>Phan Thị Quỳnh Duyên</HoTen>
+    <NamSinh>1999-01-09</NamSinh>
+    <Diem>
+      <DiemMon1>8</DiemMon1>
+      <DiemMon2>7</DiemMon2>
+      <DiemMon3>7</DiemMon3>
+    </Diem>
+  </SinhVien>
+  <SinhVien>
+    <MSSV>1710166</MSSV>
+    <HoTen>Ngô Thị Hằng</HoTen>
+    <NamSinh>1999-10-01</NamSinh>
+    <Diem>
+      <DiemMon1>8</DiemMon1>
+      <DiemMon2>8</DiemMon2>
+      <DiemMon3>8</DiemMon3>
+    </Diem>
+  </SinhVien>
+  <SinhVien>
+    <MSSV>1710167</MSSV>
+    <HoTen>Võ Thị Hằng</HoTen>
+    <NamSinh>1997-11-01</NamSinh>
+    <Diem>
+      <DiemMon1>8</DiemMon1>
+      <DiemMon2>8</DiemMon2>
+      <DiemMon3>7</DiemMon3>
+    </Diem>
+  </SinhVien>
+</DS_SinhVien>

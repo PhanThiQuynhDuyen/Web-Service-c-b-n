@@ -1,0 +1,74 @@
+body{
+    margin: 0px auto;
+    padding: 0;
+    background: url('images/wp4717526.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.loginbox{
+    margin: 0px auto;
+    width: 320px;
+    /* height: 420px; */
+    background-color: rgba(250, 235, 215, 0.664);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    margin: 0px auto;
+    top: -11%;
+    position: absolute;
+    left: 34%;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0 0 20px;
+    font-size: 22px;
+}
+
+.loginbox p{
+    font-family: "Merriweather",serif;
+    margin: 0 auto;
+}
+
+.loginbox input{
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    width: 98%;
+    border-bottom: 1px solid rgb(167, 37, 37);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 15px;
+}
+.loginbox input[type="text"]:hover, input[type="password"]:hover{
+    border-bottom: 1.5px solid rgb(167, 37, 37);
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Merriweather",serif;
+    border-radius: 15px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(17, 180, 52);
+}
+.thongbao{
+    padding: 10px;
+    border-radius: 5px;
+}
